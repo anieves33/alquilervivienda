@@ -1,0 +1,43 @@
+body {
+  margin: 1;
+  padding: 0;
+  font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 0.75;
+  background-color: #0dd94717;
+  color: #c92020;
+}
+
+.chapter {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 25px 30px;
+  border-radius: 16px;
+  background: rgba(20, 25, 32, 0.9);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.chapter h2 {
+  color: #ffd700;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.chapter p {
+  color: #d0d0d0;
+  font-size: 1.05rem;
+}
+
+.chapter img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+#map {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
