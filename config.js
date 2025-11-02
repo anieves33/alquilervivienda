@@ -134,7 +134,8 @@ var config = {
             `
          <p>El precio medio del alquiler en España ha aumentado significativamente en los últimos diez años. Ha pasado de unos 558€ en 2015 a 1.083€ en 2025, lo que representa un <b>incremento superior al 94%</b>. En el extremo más alto, regiones como País Vasco o las Islas Baleares pagan de media 1.900€ de alquiler.
 <br></br>
-<iframe src='https://flo.uri.sh/visualisation/25911599/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/25911599/?utm_source=embed&utm_campaign=visualisation/25911599' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>`,
+<iframe src='https://flo.uri.sh/visualisation/25911599/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/25911599/?utm_source=embed&utm_campaign=visualisation/25911599' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+`,
             location: {
                 center: [3.56045, 39.43328],
                 zoom: 7.21,
@@ -173,7 +174,19 @@ var config = {
             hidden: false,
             title: 'El futuro del alquiler en España',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Viviendas_de_Protecci%C3%B3n_Oficial_en_Astillero.jpg/1280px-Viviendas_de_Protecci%C3%B3n_Oficial_en_Astillero.jpg',
-            description: 'Aunque en los últimos años se han anunciado medidas que pretenden mitigar la crisis de vivienda actual, las personas que viven de alquiler continúan observando cómo aumentan los precios mes a mes. España no siempre ha tenido un parque público de vivienda tan reducido como el actual. Según el Consejo Superior de los Colegios de Arquitectos de España (CSCAE), si no se hubieran descalificado las viviendas protegidas construidas en décadas anteriores, <b>la vivienda pública supondría hoy en torno al 38% del total.</b> La realidad, sin embargo, es muy distinta: <b>apenas llega al 2,5%.</b> Por eso ahora los expertos proponen que las VPO que se construyan no puedan desclasificarse.',
+
+            description:
+            `
+         <p>España no siempre ha tenido un parque público de vivienda tan reducido como el actual. Según el Consejo Superior de los Colegios de Arquitectos de España (CSCAE), si no se hubieran descalificado las viviendas protegidas construidas en décadas anteriores, <b>la vivienda pública supondría hoy en torno al 38% del total.</b> La realidad, sin embargo, es muy distinta: <b>apenas llega al 2,5%.</b> 
+         <br>
+         <br>En este reportaje de <b>Informe Semanal</b> (RTVE) analizan cómo es vivir de alquiler en diversas zonas de España.</br>
+  <a href="https://www.rtve.es/play/videos/informe-semanal/01-11-25/16797455/" 
+     target="_blank"
+     style="display:inline-block; background:#ffd700; color:#000; padding:10px 16px; border-radius:8px; font-weight:bold; text-decoration:none;">
+    ▶ 'Una vida en una habitación'
+  </a>
+`,
+            
             location: {
                 center: [-6.17117, 40.35263],
                 zoom: 5.06,
